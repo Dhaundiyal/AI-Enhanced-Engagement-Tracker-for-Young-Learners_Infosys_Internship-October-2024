@@ -35,3 +35,14 @@ This script concatenates two images both horizontally and vertically. Image conc
 This script demonstrates the use of morphological operations (opening and closing) on a grayscale image. These operations are used to process image structures, such as removing noise or filling gaps in binary images or objects within an image.
 ### template.py
 This script uses template matching to find a template image within a larger image. It draws a bounding box around the detected template in the source image. 
+## Video Processing
+### multivid.py
+This script loads and displays images from a folder one by one, printing their dimensions. It works by reading all files in a specified directory, attempting to load each file as an image, and showing it in a window.
+### vid_fps.py
+This script captures video from your webcam, displays it in a window, and saves the video to a file while displaying the frames per second (FPS) in real-time.
+### vid_save.py
+This script captures video from your webcam and saves it as a .avi file. It also displays the live video feed in a window. The video is saved in XVID format with a resolution of 640x480 at 20 frames per second. Press the 'q' key to stop the recording and close the window.
+### vid_stack.py
+This script reads two video files (video1.avi and video2.avi), resizes their frames, concatenates them horizontally, and displays the resulting video in real-time. It stops when either of the videos ends or if the user presses the 'q' key.
+### vid_stream.py
+This script captures live video from the default webcam and displays it in a window. The feed continues until the user presses the 'q' key to stop it.
