@@ -1,6 +1,7 @@
 # AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship-October-2024
 ## Annotations
 Here we use the labelimg library in python to perform the following tasks.
+
 _The images, text and output files are in the Images folder_
 ### Dependencies:
 Python 3.x
