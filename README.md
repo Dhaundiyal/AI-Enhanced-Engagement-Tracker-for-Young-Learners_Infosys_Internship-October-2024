@@ -1,14 +1,17 @@
 # AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship-October-2024
 ## Annotations
-Here we use the labelimg library in python to perform the following tasks.
 
-_The images, text and output files are in the Images folder_
+
 ### Dependencies:
 Python 3.x
 
 os and shutil modules (built-in)
 
 cv2
+
+_The images, text and output files are in the Images folder_
+
+Here we use the labelimg library in python to perform the following tasks.
 
 ### data_segregate.py:
 This script automates the process of segregating images based on the availability of their corresponding label files. It ensures that images with matching labels are organized into one folder, while unmatched images are moved to another.
