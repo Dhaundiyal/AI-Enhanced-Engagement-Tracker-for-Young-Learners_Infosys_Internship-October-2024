@@ -13,10 +13,19 @@ This script overlays bounding boxes on images based on corresponding label files
  ![image](https://github.com/user-attachments/assets/6389b6a5-a752-41eb-a7c9-5fcf68e17eef)
  ![image](https://github.com/user-attachments/assets/1c60ffe9-4540-4457-a07e-c7cdcacc5510)
 ## Image Processing
+
+![image](https://github.com/user-attachments/assets/892022a7-4317-4e97-99e0-eb88cf4811d5)
+![image](https://github.com/user-attachments/assets/d744c855-e46a-4ba5-b5ad-d00324fb1c30)
+
 ### bgr2gray.py:
 This script converts a color image to grayscale and saves the result
+
+![image](https://github.com/user-attachments/assets/6e4b4534-039f-4c72-8e4d-2f9038635448)
 ### dil_ero.py
 This script demonstrates the use of basic morphological operations, dilation and erosion, on a grayscale image. These operations are often used in image preprocessing tasks such as noise removal, image enhancement, and shape extraction.
+
+![image](https://github.com/user-attachments/assets/53cc438b-5fc9-4114-84b6-b2ace2cf6bbd)
+
 ### histogram_equalization.py
 This script performs histogram equalization on a grayscale image to enhance its contrast. Histogram equalization improves the visibility of features in images with poor contrast, often used in image preprocessing tasks.
 ### img_blur.py
