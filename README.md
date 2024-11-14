@@ -28,26 +28,57 @@ This script demonstrates the use of basic morphological operations, dilation and
 
 ### histogram_equalization.py
 This script performs histogram equalization on a grayscale image to enhance its contrast. Histogram equalization improves the visibility of features in images with poor contrast, often used in image preprocessing tasks.
+
+![image](https://github.com/user-attachments/assets/698f801e-4b01-40df-aa57-a2714d030caa)
+
 ### img_blur.py
 This script applies a Gaussian blur to an image, which is commonly used for noise reduction or creating artistic effects by smoothing the image. The blur effect softens the details of the image, making it appear less sharp.
+
+![image](https://github.com/user-attachments/assets/6066a14d-31c9-4153-afe2-7d7b87490968)
+
 ### img_contour.py
 This script detects and draws contours on a grayscale image. Contour detection is useful in various computer vision tasks, such as object detection, shape analysis, and image segmentation.
+
+![image](https://github.com/user-attachments/assets/4ab30fcb-e2aa-4d92-b3e1-7644cb23e7b5)
+
 ### img_crop.py
 This script crops a portion of the input image based on specified pixel coordinates. Cropping is useful for focusing on a region of interest (ROI) or removing unwanted parts of an image.
+
+![image](https://github.com/user-attachments/assets/92191c1d-262b-41ce-9eba-34cafa56a1d1)
+
 ### img_edge.py
 This script applies the Canny edge detection algorithm to a grayscale image, which is used to detect edges by finding areas of rapid intensity change. It is widely used in image processing tasks like feature detection and object recognition.
+
+![image](https://github.com/user-attachments/assets/70ba5941-9c4d-4315-9a99-5a56424092dc)
+
 ### img_hsv.py
 This script converts a color image from the BGR (Blue, Green, Red) color space to the HSV (Hue, Saturation, Value) color space.
+
+![image](https://github.com/user-attachments/assets/69316042-c23f-4b95-8447-9d6b9b607131)
+
 ### img_noiserm.py
 This script demonstrates the use of morphological operations on a grayscale image to process and refine image structures. It applies opening and closing operations to remove noise and fill gaps in the image, respectively.
 ### img_resize.py
 This script resizes an input image to a specified dimension. Image resizing is useful when you need to adjust image size for display purposes, machine learning models, or storage optimization.
+
+![image](https://github.com/user-attachments/assets/1dab0e4d-513c-4c9b-a769-9848d5bbb01e)
+
 ### img_rotate.py
 This script rotates an image by a specified angle (90 degrees in this case) around its center.
+
+![image](https://github.com/user-attachments/assets/bcbac200-bf37-4ca8-9785-4d5a1ed94417)
+
 ### img_stack.py
 This script concatenates two images both horizontally and vertically. Image concatenation is useful when you want to combine multiple images into a single image for comparison, visualization, or collage creation.
+
+![image](https://github.com/user-attachments/assets/d50d4057-cb94-4895-98f1-f10a8f5f0bf4)
+![image](https://github.com/user-attachments/assets/b46ae7a3-6176-4e8a-90b7-5ba027484c6b)
+
 ### morphological_transformation.py
 This script demonstrates the use of morphological operations (opening and closing) on a grayscale image. These operations are used to process image structures, such as removing noise or filling gaps in binary images or objects within an image.
+
+![image](https://github.com/user-attachments/assets/9ab0156f-997f-4dcf-9660-80514c0aae47)
+
 ### template.py
 This script uses template matching to find a template image within a larger image. It draws a bounding box around the detected template in the source image. 
 ## Video Processing
