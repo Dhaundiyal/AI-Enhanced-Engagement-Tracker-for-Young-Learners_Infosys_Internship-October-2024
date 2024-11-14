@@ -5,7 +5,9 @@ Here we use the labelimg library in python to perform the following tasks.
 _The images, text and output files are in the Images folder_
 ### Dependencies:
 Python 3.x
+
 os and shutil modules (built-in)
+
 cv2
 
 ### data_segregate.py:
@@ -23,8 +25,11 @@ This script overlays bounding boxes on images based on corresponding label files
 
 ### Dependencies:
 Python 3.x
+
 cv2
+
 numpy
+
 matplotlib
 
 ### Input images
@@ -102,6 +107,7 @@ This script uses template matching to find a template image within a larger imag
 
 ### Dependencies:
 Python 3.x
+
 cv2
 
 In video processing we see how to capture a video using webcam or a given video and perform the operations mentioned below.
@@ -120,13 +126,21 @@ This script captures live video from the default webcam and displays it in a win
 
 ### Dependencies:
 Python 3.x
+
 cv2
+
 face_recognition
+
 pandas
+
 numpy
+
 xlrd
+
 openpyxl
+
 dlib
+
 imutils
 
 In this project we build an attendace system by using face recognition and saving necessary data to evaluate the attendace, the attentive score, screenshots with date and time etc.
