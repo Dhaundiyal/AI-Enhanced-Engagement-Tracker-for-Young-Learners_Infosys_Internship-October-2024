@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread('image.jpg', 0)
+img = cv2.imread('image.jpeg', 0)
 equalized = cv2.equalizeHist(img)
 
 cv2.imshow('Equalized Image', equalized)
