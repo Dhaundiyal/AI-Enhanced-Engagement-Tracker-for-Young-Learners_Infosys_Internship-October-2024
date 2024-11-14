@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread('image2.jpg')
+img = cv2.imread('image2.jpeg')
 (h, w) = img.shape[:2]
 center = (w // 2, h // 2)
 
