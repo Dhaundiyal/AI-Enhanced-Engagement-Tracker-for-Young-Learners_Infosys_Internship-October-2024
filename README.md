@@ -46,3 +46,20 @@ This script captures video from your webcam and saves it as a .avi file. It also
 This script reads two video files (video1.avi and video2.avi), resizes their frames, concatenates them horizontally, and displays the resulting video in real-time. It stops when either of the videos ends or if the user presses the 'q' key.
 ### vid_stream.py
 This script captures live video from the default webcam and displays it in a window. The feed continues until the user presses the 'q' key to stop it.
+## Face Recognition
+### 1_face_recog
+This script uses the face_recognition library to detect and identify a specific individual from a live webcam feed.
+### 2_attendace_save
+This script implements a real-time face recognition system using a webcam. It detects and identifies a known face (e.g., 'Manas') and logs the attendance details (Name, Date, and Time) into an Excel file.
+### 3_attendace_save_2
+This script enhances a real-time face recognition system by adding time-based logic to manage attendance logging.
+### 4_excel_dt
+This script demonstrates a real-time face recognition system using face_recognition and OpenCV. It captures frames from a live video stream, recognizes a pre-defined individual, and logs recognition details into an Excel file along with screenshots.
+### 5_excel_sc_dt
+This script implements a real-time face recognition system that captures frames from a live video stream, detects a specific individual, and logs the recognition data. Each recognition event is recorded with a timestamped screenshot, ensuring clear context for every entry.
+### 6_landmark
+This script implements a real-time face recognition system that not only identifies a specific individual but also evaluates their attentiveness using head pose estimation. It logs recognized face data with timestamped screenshots and attentiveness status.
+### 7_atten_score
+This script extends a real-time face recognition system by introducing an attention scoring mechanism. It not only recognizes a specific individual but also computes their attentiveness score based on head pose estimation. The system logs recognized face data, including attention scores, and saves them along with screenshots.
+### 8_avg_atten_score
+This script enhances the above script by adding the average attention scores for the users.
