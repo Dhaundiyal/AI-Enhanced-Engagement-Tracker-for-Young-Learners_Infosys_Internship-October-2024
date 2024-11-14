@@ -1,6 +1,12 @@
 # AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship-October-2024
 ## Annotations
 Here we use the labelimg library in python to perform the following tasks.
+_The images, text and output files are in the Images folder_
+### Dependencies:
+Python 3.x
+os and shutil modules (built-in)
+cv2
+
 ### data_segregate.py:
 This script automates the process of segregating images based on the availability of their corresponding label files. It ensures that images with matching labels are organized into one folder, while unmatched images are moved to another.
 ### label_manipulate.py:
@@ -13,6 +19,13 @@ This script overlays bounding boxes on images based on corresponding label files
  ![image](https://github.com/user-attachments/assets/6389b6a5-a752-41eb-a7c9-5fcf68e17eef)
  ![image](https://github.com/user-attachments/assets/1c60ffe9-4540-4457-a07e-c7cdcacc5510)
 ## Image Processing
+
+### Dependencies:
+Python 3.x
+cv2
+numpy
+matplotlib
+
 ### Input images
 ![image](https://github.com/user-attachments/assets/892022a7-4317-4e97-99e0-eb88cf4811d5)
 ![image](https://github.com/user-attachments/assets/d744c855-e46a-4ba5-b5ad-d00324fb1c30)
@@ -85,6 +98,11 @@ This script demonstrates the use of morphological operations (opening and closin
 This script uses template matching to find a template image within a larger image. It draws a bounding box around the detected template in the source image. 
 
 ## Video Processing
+
+### Dependencies:
+Python 3.x
+cv2
+
 In video processing we see how to capture a video using webcam or a given video and perform the operations mentioned below.
 
 ### multivid.py
@@ -98,7 +116,22 @@ This script reads two video files (video1.avi and video2.avi), resizes their fra
 ### vid_stream.py
 This script captures live video from the default webcam and displays it in a window. The feed continues until the user presses the 'q' key to stop it.
 ## Face Recognition
+
+### Dependencies:
+Python 3.x
+cv2
+face_recognition
+pandas
+numpy
+xlrd
+openpyxl
+dlib
+imutils
+
 In this project we build an attendace system by using face recognition and saving necessary data to evaluate the attendace, the attentive score, screenshots with date and time etc.
+
+_The .dat file used is in the folder shape_predictor_68_face_landmark_ 
+
 ### Input image
 
 ![image](https://github.com/user-attachments/assets/17d7e8ef-8bfd-4342-9d8e-e55f8ff453f3)
