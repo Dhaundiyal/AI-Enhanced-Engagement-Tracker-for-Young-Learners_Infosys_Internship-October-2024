@@ -145,7 +145,7 @@ imutils
 
 In this project we build an attendace system by using face recognition and saving necessary data to evaluate the attendace, the attentive score, screenshots with date and time etc.
 
-_The .dat file used is in the folder shape_predictor_68_face_landmark_ 
+_The .dat file used is in the folder shape_predictor_68_face_landmark. Specify the path while running the code._ 
 
 ### Input image
 
