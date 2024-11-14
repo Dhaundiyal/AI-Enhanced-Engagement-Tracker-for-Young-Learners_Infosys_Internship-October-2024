@@ -13,7 +13,7 @@ This script overlays bounding boxes on images based on corresponding label files
  ![image](https://github.com/user-attachments/assets/6389b6a5-a752-41eb-a7c9-5fcf68e17eef)
  ![image](https://github.com/user-attachments/assets/1c60ffe9-4540-4457-a07e-c7cdcacc5510)
 ## Image Processing
-
+### Input images
 ![image](https://github.com/user-attachments/assets/892022a7-4317-4e97-99e0-eb88cf4811d5)
 ![image](https://github.com/user-attachments/assets/d744c855-e46a-4ba5-b5ad-d00324fb1c30)
 
@@ -93,19 +93,49 @@ This script reads two video files (video1.avi and video2.avi), resizes their fra
 ### vid_stream.py
 This script captures live video from the default webcam and displays it in a window. The feed continues until the user presses the 'q' key to stop it.
 ## Face Recognition
+### Input image
+
+![image](https://github.com/user-attachments/assets/17d7e8ef-8bfd-4342-9d8e-e55f8ff453f3)
+
 ### 1_face_recog
 This script uses the face_recognition library to detect and identify a specific individual from a live webcam feed.
 ### 2_attendace_save
 This script implements a real-time face recognition system using a webcam. It detects and identifies a known face (e.g., 'Manas') and logs the attendance details (Name, Date, and Time) into an Excel file.
+
+![image](https://github.com/user-attachments/assets/ec5a9b52-7e83-404d-8ab9-5f8488384930)
+
 ### 3_attendace_save_2
 This script enhances a real-time face recognition system by adding time-based logic to manage attendance logging.
+
+![image](https://github.com/user-attachments/assets/2cb59fd9-a2d6-42fd-aad5-1352716b1af3)
+
 ### 4_excel_dt
 This script demonstrates a real-time face recognition system using face_recognition and OpenCV. It captures frames from a live video stream, recognizes a pre-defined individual, and logs recognition details into an Excel file along with screenshots.
+
+![image](https://github.com/user-attachments/assets/8b8634b6-32c7-49ca-9f8d-dfb7457fca38)
+![image](https://github.com/user-attachments/assets/d2ce77c7-bb62-41d8-9a6f-97824d6bc3aa)
+
 ### 5_excel_sc_dt
 This script implements a real-time face recognition system that captures frames from a live video stream, detects a specific individual, and logs the recognition data. Each recognition event is recorded with a timestamped screenshot, ensuring clear context for every entry.
+
+![image](https://github.com/user-attachments/assets/0a64b908-b61f-4872-941d-6c7873f6b78f)
+![image](https://github.com/user-attachments/assets/1b4a82dc-aa39-497c-921b-336d6734a70b)
+
 ### 6_landmark
 This script implements a real-time face recognition system that not only identifies a specific individual but also evaluates their attentiveness using head pose estimation. It logs recognized face data with timestamped screenshots and attentiveness status.
+
+![image](https://github.com/user-attachments/assets/19548e8f-434a-4c75-a408-b0cc3cd7a8ac)
+![image](https://github.com/user-attachments/assets/28512c12-d311-4103-aaac-7e8b10e0c9ce)
+
 ### 7_atten_score
 This script extends a real-time face recognition system by introducing an attention scoring mechanism. It not only recognizes a specific individual but also computes their attentiveness score based on head pose estimation. The system logs recognized face data, including attention scores, and saves them along with screenshots.
+
+![image](https://github.com/user-attachments/assets/8f631acd-d056-4d87-adc3-bbbedec9cefc)
+![image](https://github.com/user-attachments/assets/5dd4b44e-ae4c-471a-8bac-81b2ebd7313f)
+
 ### 8_avg_atten_score
 This script enhances the above script by adding the average attention scores for the users.
+
+![image](https://github.com/user-attachments/assets/7d0ad457-6f4c-4dec-bc64-879ac6e72352)
+![image](https://github.com/user-attachments/assets/e5af4ce1-34cd-48de-8d46-2ca93c157c31)
+
