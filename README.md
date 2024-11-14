@@ -3,8 +3,9 @@
 Here we use the labelimg library in python to perform the following tasks.
 ### data_segregate.py:
 This script automates the process of segregating images based on the availability of their corresponding label files. It ensures that images with matching labels are organized into one folder, while unmatched images are moved to another.
-### label_manipylate.py:
+### label_manipulate.py:
 This script modifies class IDs in label files, useful for tasks involving object detection or classification annotations. It searches through label files in a specified directory, identifies lines with a specified class ID, and replaces them with a new class ID.
+![image](https://github.com/user-attachments/assets/b4b218a4-b4c2-4faa-89a4-e46bf33a5114)
 ### labelimg.py:
 This script overlays bounding boxes on images based on corresponding label files, helping visualize object detection annotations.
  ![image](https://github.com/user-attachments/assets/6389b6a5-a752-41eb-a7c9-5fcf68e17eef)
