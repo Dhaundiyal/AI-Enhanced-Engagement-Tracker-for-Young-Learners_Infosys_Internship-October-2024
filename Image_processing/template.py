@@ -1,7 +1,7 @@
 import cv2
 
-img = cv2.imread('image.jpg')
-template = cv2.imread('template.jpg', 0)
+img = cv2.imread('image1.jpeg')
+template = cv2.imread('image2.jpeg', 0)
 result = cv2.matchTemplate(img, template, cv2.TM_CCOEFF_NORMED)
 
 min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(result)
