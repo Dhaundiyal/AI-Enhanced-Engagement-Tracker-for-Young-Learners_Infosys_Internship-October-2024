@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread('image2.jpg')
+img = cv2.imread('image2.jpeg')
 cropped = img[50:200, 100:300]
 
 cv2.imshow('Cropped Image', cropped)
