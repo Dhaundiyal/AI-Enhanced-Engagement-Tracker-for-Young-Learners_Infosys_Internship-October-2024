@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread('image2.jpg')
+img = cv2.imread('image2.jpeg')
 hsv_img = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 
 cv2.imshow('HSV Image', hsv_img)
