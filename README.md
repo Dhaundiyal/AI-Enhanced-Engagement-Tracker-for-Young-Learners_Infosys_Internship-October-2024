@@ -1,11 +1,14 @@
 # AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship-October-2024
 ## Annotations
+Here we use the labelimg library in python to perform the following tasks.
 ### data_segregate.py:
 This script automates the process of segregating images based on the availability of their corresponding label files. It ensures that images with matching labels are organized into one folder, while unmatched images are moved to another.
 ### label_manipylate.py:
 This script modifies class IDs in label files, useful for tasks involving object detection or classification annotations. It searches through label files in a specified directory, identifies lines with a specified class ID, and replaces them with a new class ID.
 ### labelimg.py:
 This script overlays bounding boxes on images based on corresponding label files, helping visualize object detection annotations.
+Input: ![image](https://github.com/user-attachments/assets/6389b6a5-a752-41eb-a7c9-5fcf68e17eef)
+Output: ![image](https://github.com/user-attachments/assets/1c60ffe9-4540-4457-a07e-c7cdcacc5510)
 ## Image Processing
 ### bgr2gray.py:
 This script converts a color image to grayscale and saves the result
