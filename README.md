@@ -196,3 +196,16 @@ This script enhances the above script by adding the average attention scores for
 ![image](https://github.com/user-attachments/assets/7d0ad457-6f4c-4dec-bc64-879ac6e72352)
 ![image](https://github.com/user-attachments/assets/e5af4ce1-34cd-48de-8d46-2ca93c157c31)
 
+## Face Recognition App with Liveness Detection
+
+Implemented liveness detection using blink detection and mouth movements. Also built an app for the same using streamlit library.
+
+![Manas_2024-11-27_17-44-47](https://github.com/user-attachments/assets/d228226b-811a-43ea-958d-d715ac8b320e)
+
+![Manas_2024-11-27_17-45-03](https://github.com/user-attachments/assets/df37f6d1-4822-42bb-bd77-cf2e5db68947)
+
+![Screenshot 2024-11-28 201421](https://github.com/user-attachments/assets/4ba694ae-95c5-41dd-90c4-90d709e58bef)
+![Screenshot 2024-11-28 201500](https://github.com/user-attachments/assets/3d328a98-9bd1-4f4e-9b77-31a6a8d19846)
+![Screenshot 2024-11-28 201514](https://github.com/user-attachments/assets/49a4238d-b993-468f-b278-b60a46af1f42)
+
+
